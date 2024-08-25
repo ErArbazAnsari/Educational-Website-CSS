@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 
 <body>
@@ -44,7 +46,7 @@
         </div>
 
         <div class="container grid grid-three--cols">
-            <div class="about-div" data-aos="fade-right" data-aos-delay="100">
+            <div class="about-div" data-aos="fade-right" data-aos-delay="50">
                 <div class="icon">
                     <img src="./Images/research.png" alt="research image">
                 </div>
@@ -55,7 +57,7 @@
 
 
 
-            <div class="about-div" data-aos="fade-right" data-aos-delay="200">
+            <div class="about-div" data-aos="fade-right" data-aos-delay="100">
                 <div class="icon">
                     <img src="./Images/design.png" alt="Design image">
                 </div>
@@ -66,7 +68,7 @@
 
 
 
-            <div class="about-div" data-aos="fade-right" data-aos-delay="300">
+            <div class="about-div" data-aos="fade-right" data-aos-delay="150">
                 <div class="icon">
                     <img src="./Images/Coding.png" alt="Coding image">
                 </div>
@@ -88,12 +90,13 @@
                     <a href="contact.html">Start Now <i class="fa-solid fa-arrow-circle-right"></i></a>
                 </div>
             </div>
-            <div class="contact-image">
+            <div class="contact-image" data-aos="zoom-in">
                 <img src="./Images/main.png" alt="contact image">
             </div>
         </div>
     </div>
     <!-- ========== Contact Home End ========== -->
+
 
     <!-- ========== Footer Start Section ========== -->
     <footer>
@@ -146,6 +149,13 @@
         </div>
     </footer>
     <!-- ========== Footer End Section ========== -->
+
+    <!-- ========== AOS Link ========== -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- ========== AOS Link ========== -->
 </body>
 
 </html>
